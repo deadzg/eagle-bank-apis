@@ -1,0 +1,44 @@
+# ----------------------------------------------------------------------
+# Build/Compiled Artifacts
+# ----------------------------------------------------------------------
+# Java/Maven/Gradle
+/target/
+/build/
+*.class
+*.jar
+*.war
+*.ear
+/out/
+/classes/
+
+# Logs and Caches
+*.log
+*.hprof
+*.pyc
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# ----------------------------------------------------------------------
+# JetBrains IDEs (IntelliJ IDEA, PyCharm, WebStorm, etc.)
+# ----------------------------------------------------------------------
+# The .idea folder contains ALL project settings.
+# The standard practice is to ignore the entire folder by default,
+# and then explicitly *un-ignore* a few necessary config files.
+
+.idea/
+
+# Exceptions for necessary shared project files:
+# !.idea/vcs.xml             # Version control system settings
+# !.idea/modules.xml         # Project structure/module definitions
+# !.idea/misc.xml           # Project encoding, language level
+
+# Standard files to ignore completely:
+*.iml
+*.iws
+*.ipr
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/shelf/
+.idea/dataSources/
