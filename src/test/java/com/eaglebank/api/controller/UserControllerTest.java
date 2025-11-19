@@ -40,7 +40,8 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 public class UserControllerTest {
 
     //Write test cases for UserController class
-    @MockitoBean UserRepository userRepository;
+    @MockitoBean
+    private UserRepository userRepository;
 
     @MockitoBean
     private CustomUserDetailsService customUserDetailsService;
