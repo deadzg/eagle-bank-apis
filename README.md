@@ -37,6 +37,7 @@
 - I have already compiled the code and added a runnable jar in the root folder, so there is no need to compile the code again.
 - Make sure you are on the root of the project
 - Execute jar from commandline: `java -jar bank-apis-1.0-SNAPSHOT.jar`
+- Added the updated open api spec with Authentication API: `openapi_with_auth_endpoint.yaml`
 
 ## Steps to build the jar
 **Note**: I have already provided the runnable jar in the root folder, if you are interested in building the application please find the steps below
