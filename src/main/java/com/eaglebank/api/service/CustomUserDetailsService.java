@@ -51,14 +51,14 @@ public class CustomUserDetailsService implements UserDetailsService {
         final String OTHER_USER_EMAIL = "otheruser@example.com";
         final String USER_EMAIL = "user@example.com";
         // Passwords must be prefixed with {noop} since NoOpPasswordEncoder is configured
-        final String ADMIN_PASSWORD = "{noop}password";
+        final String OTHER_USER_PASSWORD = "{noop}password";
         final String USER_PASSWORD = "{noop}guest";
 
         if (OTHER_USER_EMAIL.equals(username)) {
             // Admin user
             return new org.springframework.security.core.userdetails.User(
                     OTHER_USER_EMAIL,
-                    ADMIN_PASSWORD,
+                    OTHER_USER_PASSWORD,
                     Collections.singletonList(new SimpleGrantedAuthority("ROLE_USER"))
             );
         } else if (USER_EMAIL.equals(username)) {
